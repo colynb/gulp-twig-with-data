@@ -1,0 +1,32 @@
+{
+  "name": "gulp-twig-with-data",
+  "description": "Fork of gulp-twig that can use gulp-data",
+  "version": "0.0.1",
+  "homepage": "https://github.com/colynb/gulp-twig-with-data",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/colynb/gulp-twig-with-data.git"
+  },
+  "author": "Colyn Brown <colyn.brown@gmail.com>",
+  "main": "./index.js",
+  "dependencies": {
+    "gulp-util": "^2.2.14",
+    "twig": "^0.7.2",
+    "map-stream": "^0.1.0",
+    "replace-ext": "0.0.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "engines": {
+    "node": ">= 0.9.0"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://github.com/zimmen/gulp-twig/raw/master/LICENSE"
+  }]
+}
